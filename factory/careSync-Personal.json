@@ -1,0 +1,15 @@
+{
+	"name": "careSync-Personal",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "be681015-8895-4028-8b81-2b0ebe804dd2",
+		"tenantId": "db05b029-0fbc-4a5d-b95d-3574d6b9ecd3"
+	}
+}
