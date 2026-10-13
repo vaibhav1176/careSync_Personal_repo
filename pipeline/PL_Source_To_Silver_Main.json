@@ -59,9 +59,9 @@
 							},
 							"userProperties": [],
 							"typeProperties": {
-								"variableName": "test_int",
+								"variableName": "test",
 								"value": {
-									"value": "@item().table_id",
+									"value": "@string(item().table_id)",
 									"type": "Expression"
 								}
 							}
@@ -82,6 +82,9 @@
 			},
 			"test_int": {
 				"type": "Integer"
+			},
+			"test": {
+				"type": "String"
 			}
 		},
 		"annotations": []
