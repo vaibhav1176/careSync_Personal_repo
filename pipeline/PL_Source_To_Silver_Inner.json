@@ -30,12 +30,34 @@
 					},
 					"firstRowOnly": true
 				}
+			},
+			{
+				"name": "Get startDateTime",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "StartDateTime",
+					"value": {
+						"value": "@utcNow()",
+						"type": "Expression"
+					}
+				}
 			}
 		],
 		"parameters": {
 			"table_id": {
 				"type": "string",
 				"defaultValue": "1"
+			}
+		},
+		"variables": {
+			"StartDateTime": {
+				"type": "String"
 			}
 		},
 		"annotations": []
