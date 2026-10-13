@@ -43,7 +43,7 @@
 				"typeProperties": {
 					"variableName": "StartDateTime",
 					"value": {
-						"value": "@utcNow()",
+						"value": "@formatDateTime(utcNow(), 'yyyy-MM-dd_hh:mm:ss')",
 						"type": "Expression"
 					}
 				}
